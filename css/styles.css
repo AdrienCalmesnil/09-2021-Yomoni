@@ -64,7 +64,7 @@ body {
   color: #f29133;
 }
 
-/* main section styling */
+/* left main section styling */
 .main {
   width: 100vw;
   height: 100vh;
@@ -135,4 +135,61 @@ body {
   font-size: 16px;
   line-height: 140%;
   color: #ffffff;
+}
+
+/* card main section styling */
+.main__section__right {
+  width: 90%;
+}
+
+.main__section__right .card {
+  padding: 16px 35px 16px 20px;
+  margin-bottom: 1.8em;
+  background: #151a45;
+  border-radius: 8px;
+}
+
+.main__section__right .card__title {
+  margin-bottom: 8px;
+  font-family: Work Sans, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 24px;
+  letter-spacing: -1px;
+  color: #ffffff;
+}
+
+.main__section__right p {
+  font-family: Fira Sans, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(255, 255, 255, 0.92);
+}
+
+.main__section__right .card a {
+  display: grid;
+  text-align: end;
+  text-decoration: none;
+}
+
+.main__section__right .card a span {
+  font-family: Fira Sans, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+
+  color: #ffffff;
+}
+
+#amf,
+#acpr {
+  font-family: Fira Sans, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
 }
