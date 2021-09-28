@@ -251,14 +251,15 @@ body {
   }
 }
 
-@media screen and (max-width: 900px){
+@media screen and (max-width: 900px) {
   .header__nav {
     display: flex;
     justify-content: space-evenly;
     text-decoration: none;
   }
 
-  .header__nav__item .active, .header__nav__item .notactive{
+  .header__nav__item .active,
+  .header__nav__item .notactive {
     font-size: 14px;
     margin-right: 15px;
   }
@@ -280,49 +281,49 @@ body {
     text-align: justify;
   }
 
-  .main__section__left ul{
+  .main__section__left ul {
     padding-left: 0px;
     text-align: start;
   }
-
 }
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 800px) {
   .container_main {
     padding-top: 20%;
   }
 
-  .header__nav__item .active, .header__nav__item .notactive{
+  .header__nav__item .active,
+  .header__nav__item .notactive {
     font-size: 14px;
     margin-right: 10px;
   }
 
-  .header__brand img{
+  .header__brand img {
     max-width: 82px;
   }
 
-  .main__section__left ul li{
+  .main__section__left ul li {
     font-size: 12px;
   }
 }
 
-@media screen and (max-width: 700px){
+@media screen and (max-width: 700px) {
   .container_main {
     padding-top: 20%; /*gap between bottom of the header and top of the main section*/
     display: grid;
     grid-template-rows: 50% 50%;
-    grid-template-columns:none ;
+    grid-template-columns: none;
   }
 
-  .main__section__left{
+  .main__section__left {
     padding: 0px;
   }
 
-  .main__section__left h1{
+  .main__section__left h1 {
     font-size: 2.5em;
   }
 
-  .main__section__left p{
+  .main__section__left p {
     font-size: 18px;
     text-align: justify;
   }
@@ -331,26 +332,26 @@ body {
     padding-left: 30px;
   }
 
-  .main__section__left ul li{
+  .main__section__left ul li {
     font-size: 16px;
   }
 
-  .main__section__left .btn--main{
+  .main__section__left .btn--main {
     margin-top: 30px;
     /* width: 100%; */
   }
 
-  body{
+  body {
     overflow-y: scroll;
   }
 }
 
 @media screen and (max-width: 600px) {
-  .container{
+  .container {
     width: 90%;
   }
 
-  .container_header{
+  .container_header {
     width: 90%;
   }
 
@@ -359,45 +360,46 @@ body {
     padding: 8px 20px;
   } */
 
-  .main__section__left h1{
+  .main__section__left h1 {
     font-size: 2em;
   }
 
-  .main__section__left p{
+  .main__section__left p {
     font-size: 18px;
     text-align: justify;
   }
 }
 
-@media screen and (max-width: 500px){
-  .container_header{
+@media screen and (max-width: 500px) {
+  .container_header {
     grid-template-columns: 35% 65%;
   }
 
-  .header__nav__item .notactive, .header__nav__item .active{
+  .header__nav__item .notactive,
+  .header__nav__item .active {
     font-size: 12px;
   }
 
-  .main__section__right{
+  .main__section__right {
     width: 100%;
   }
 
-  .main__section__left h1{
+  .main__section__left h1 {
     font-size: 1.8em;
   }
 
-  .main__section__left p{
+  .main__section__left p {
     font-size: 16px;
   }
 
-  .main__section__left ul li{
+  .main__section__left ul li {
     font-size: 15px;
   }
 
   .main__section__right .card {
     margin-bottom: 1.4em;
   }
-  
+
   .main__section__right .card__title {
     margin-bottom: 8px;
     font-family: Work Sans, sans-serif;
@@ -408,7 +410,7 @@ body {
     letter-spacing: -1px;
     color: #ffffff;
   }
-  
+
   .main__section__right p {
     font-family: Fira Sans, sans-serif;
     font-style: normal;
@@ -418,37 +420,37 @@ body {
     color: rgba(255, 255, 255, 0.92);
   }
 
-  .main__section__right .card a span{
+  .main__section__right .card a span {
     font-size: 14px;
   }
 }
 
-@media screen and (max-width: 400px){
-  .container_header{
+@media screen and (max-width: 400px) {
+  .container_header {
     width: 94%;
   }
 
-  .container_main{
+  .container_main {
     padding-top: 26%;
   }
 
-  .main__section__left .btn--main{
+  .main__section__left .btn--main {
     margin-top: 20px;
     padding: 8px 20px;
   }
 
-  .main__section__left h1{
+  .main__section__left h1 {
     font-size: 1.6em;
   }
 
-  .main__section__left ul{
+  .main__section__left ul {
     padding-left: 0;
   }
 
   .main__section__right .card {
     margin-bottom: 1.4em;
   }
-  
+
   .main__section__right .card__title {
     margin-bottom: 8px;
     font-family: Work Sans, sans-serif;
@@ -459,7 +461,7 @@ body {
     letter-spacing: -1px;
     color: #ffffff;
   }
-  
+
   .main__section__right p {
     font-family: Fira Sans, sans-serif;
     font-style: normal;
