@@ -135,6 +135,13 @@ body {
   font-size: 16px;
   line-height: 140%;
   color: #ffffff;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.main__section__left .btn--main:hover{
+  background: #ffffff;
+  color: #f29133;
 }
 
 /* card main section styling */
